@@ -1,7 +1,7 @@
 function add_new_div(){
     let flagExam = prompt('Перейти к проверке работы? да или нет?')
     if(flagExam == "yes" | flagExam == "da" | flagExam == "да"){
-        const new_div = '<label class="out">Введите стоимость и количество заказа: <input type="text" name="field1">руб * <input type="text" name="field2">шт <button onclick="return multiplicOfNum();">Вывести результат</button><label style="font-weight: bold;" id="result"></label></label>';
+        const new_div = '<label class="out">Введите стоимость и количество заказа: <input type="text" name="field1">руб <input type="text" name="field2">шт <button onclick="return multiplicOfNum();">Вывести результат</button><label style="font-weight: bold;" id="result"></label></label>';
         let add_div = document.getElementById("input");
         add_div.innerHTML = new_div;
     }
