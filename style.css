@@ -1,0 +1,13 @@
+body{
+    margin: 0%;
+    text-align: center;
+}
+div.input{
+    margin: 5%;
+}
+label.out{
+    padding: 1%;
+    background-color: cadetblue;
+    border: outset;
+    border-radius: 8px;
+}
