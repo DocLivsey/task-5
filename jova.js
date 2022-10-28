@@ -15,3 +15,15 @@ function multiplicOfNum(){
     r.innerHTML = ' А зачем отрицательные входные данные?';
     return false;
 }
+
+function vova()
+{
+  let vova = prompt("Вова гей?");
+  if (vova == 'да' | vova == 'da'){
+    alert("вы правы")
+  }
+  else{
+    alert("вы не правы, вова гей")
+  }
+  return false
+}
