@@ -8,7 +8,15 @@
   </head>
    <body>
     <div class="input" id="input">
-      <button onclick="return add_new_div();">Перейти к проверке</button>
+      <button id="examButton">Перейти к проверке</button>
+      <div id="calc-div" class="calc-input">
+        <label class="out">Введите стоимость и количество заказа: 
+          <input type="text" name="field1">руб 
+          <input type="text" name="field2">шт 
+          <button id="resultButton">Вывести результат</button>
+          <label style="font-weight: bold;" id="result"></label>
+        </label>
+      </div>
     </div>
   </body>
 </html>
