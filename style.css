@@ -11,3 +11,11 @@ label.out{
     border: outset;
     border-radius: 8px;
 }
+input{
+    border: ridge;
+    border-radius: 8px;
+}
+button{
+    border: ridge;
+    border-radius: 8px;
+}
