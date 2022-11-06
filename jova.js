@@ -15,6 +15,21 @@ function add_new_div(){
       calcDiv.style.display = "block";
     }
 }
+function createNewElement() {
+  let smthng = document.getElementById("smthng");
+  let verify = document.getElementById("new-div");
+  let testButton = document.getElementById("test");
+  testButton.style.display = "none";
+  let new_div = document.createElement("div");
+  let img_element = document.createElement("img");
+  new_div.id = "new-div";
+  new_div.style.margin = "1%";
+  img_element.src = "https://itcrumbs.ru/wp-content/uploads/2022/08/Doktor-Livsi-iz-Ostrova-sokrovishh-1.jpg";
+  img_element.style.width = "40%";
+  img_element.style.borderRadius = "8px";
+  smthng.appendChild(new_div);
+  new_div.appendChild(img_element);
+}
 window.addEventListener('DOMContentLoaded', function (event) {
   console.log("DOM fully loaded and parsed");
 
@@ -24,8 +39,9 @@ window.addEventListener('DOMContentLoaded', function (event) {
   examButton.addEventListener("click", add_new_div);
   let resultButton = document.getElementById("resultButton");
   resultButton.addEventListener("click", multiplicOfNum);
+  let testButton = document.getElementById("test");
+  testButton.addEventListener("click", createNewElement);
 });
-
 
 
 function vova()
